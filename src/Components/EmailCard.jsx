@@ -23,10 +23,9 @@ const EmailInputCard = () => {
 
   /// AKIA3FLDZHBBQLGTODCQ
   /// /CpkY97X6q3q/FMbjNZXsbtaKzIlBtE+aW5JKAqn
-
   AWS.config.update({
-    accessKeyId: "",
-    secretAccessKey: "",
+    accessKeyId: "AKIA3FLDZHBBQLGTODCQ",
+    secretAccessKey: "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",
   });
 
   const s3 = new S3({
